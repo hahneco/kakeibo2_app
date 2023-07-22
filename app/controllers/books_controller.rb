@@ -31,4 +31,8 @@ class BooksController < ApplicationController
       render :new
     end
   end
+
+  def edit
+    @book = Book.find(params[:id])
+  end
 end
