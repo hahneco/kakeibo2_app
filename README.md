@@ -45,8 +45,6 @@ docker-compose exec web rails db:migrate
 
 5. ブラウザで http://localhost:3000 にアクセスして家計簿アプリが起動することを確認します。
 
-6. ブラウザで http://localhost:3000 にアクセスして家計簿アプリが起動することを確認します。
-
 ## ライセンス
 
 MIT ライセンス
