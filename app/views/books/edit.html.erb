@@ -26,5 +26,6 @@
     <%= f.number_field :amount, class: "form-control" %>
   </div>
 
+  <%= link_to  "戻る", books_path, class: "btn btn-primary" %>
   <%= f.submit "更新",class: "btn btn-primary", disable_with: '更新中...' %>
 <% end %>
