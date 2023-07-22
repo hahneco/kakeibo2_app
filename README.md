@@ -18,10 +18,10 @@
 
 1. このリポジトリをクローンします。
 
-   ```bash
-   git clone https://github.com/your-username/kakeibo2_app.git
+```
+git clone https://github.com/your-username/kakeibo2_app.git
 
-   ```
+```
 
 2. クローンしたプロジェクトフォルダーに移動します。
 
