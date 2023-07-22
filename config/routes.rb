@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "/books/:id", to: "books#show", as: "book"
 
   patch "/books/:id", to: "books#update" # asでニックネームを指定していないが、指定がない場合は上のものを引き継ぐ。
+  delete "/books/:id", to: "books#destroy" # Corrected delete route
 end
